@@ -57,7 +57,9 @@ public class XPathPeople {
 	}
 
 	/**
-	 * 
+	 * the function uses the id passed as parameter to look for the place of the activity 
+	 * belonging to the person with the id passed
+	 *
 	 * @param personId
 	 * @return node of the place of the preferred activity
 	 * @throws XPathExpressionException
@@ -71,6 +73,7 @@ public class XPathPeople {
 
 	/**
 	 * prints all persons in the xml file
+	 *
 	 * @throws XPathExpressionException
 	 */
 	
@@ -97,7 +100,9 @@ public class XPathPeople {
 	}
 	
 	/**
-	 * the function print the nodes itself
+	 * the function gets all startdates and parses them as date type to compare them with the date passed as parameter.
+	 * it prints the nodes which satisfy the condition passed as parameter 
+	 *
 	 * @param date
 	 * @param condition
 	 * @throws XPathExpressionException
@@ -135,7 +140,8 @@ public class XPathPeople {
 	}
 	
 	/**
-	 * 
+	 * the function uses the id passed as parameter to look for the preferred activity 
+	 * belonging to the person with the id passed
 	 * @param personId
 	 * @return node with the preferred activity 
 	 * @throws XPathExpressionException
@@ -153,18 +159,7 @@ public class XPathPeople {
 		XPathPeople test = new XPathPeople();
 		test.loadXML();
 
-		test.getPeople(); 
-	/*	
-		// getting node by book name
-		Node node = test.getActivityDescription(5);
-		System.out.println("Node name: " + node.getNodeName());
-		System.out.println("My childs text contents :" + node.getTextContent());
-
-		// getting node by ISBN number
-		node = test.getActivityPlace(5);
-		System.out.println(node.getTextContent());
-		
-	*/	
+		test.getPeople();	
 		
 		Node node = test.getActivityPreference(5);
 		System.out.println(node.getTextContent());

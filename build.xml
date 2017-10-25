@@ -118,7 +118,7 @@
 	<target name="excecute.evaluation">
 		
 		<echo message="Executing XPath all People" />
-				<java classname="people.XPathPeople" classpath="${build.dir}">
+				<java classname="src.people.XPathPeople" classpath="${build.dir}">
 					<classpath>
 						<fileset dir="${lib.dir}">
 							<include name="**/*.jar" />
@@ -129,7 +129,7 @@
 		
 	
 		<echo message="Executing JAXBMarsh" />
-		<java classname="people.JAXBMarsh" classpath="${build.dir}">
+		<java classname="src.people.JAXBMarsh" classpath="${build.dir}">
 			<classpath>
 				<fileset dir="${lib.dir}">
 					<include name="**/*.jar" />
@@ -140,7 +140,7 @@
 
 	
 		<echo message="Executing JAXBUnmarsh" />
-		<java classname="people.JAXBUnmarsh" classpath="${build.dir}">
+		<java classname="src.people.JAXBUnmarsh" classpath="${build.dir}">
 			<classpath>
 				<fileset dir="${lib.dir}">
 					<include name="**/*.jar" />
@@ -151,7 +151,7 @@
 
 
 		<echo message="Executing People for Json" />
-		<java classname="people.PeopleJSON" classpath="${build.dir}">
+		<java classname="src.people.PeopleJSON" classpath="${build.dir}">
 			<classpath>
 				<fileset dir="${lib.dir}">
 					<include name="**/*.jar" />

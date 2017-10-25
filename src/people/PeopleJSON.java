@@ -11,7 +11,7 @@ import model.People;
 
 
 public class PeopleJSON {
-	public static PeopleStore people = new PeopleStore();
+	public static PeopleAnnotation people = new PeopleAnnotation();
 
 	public static void initializeDB() {
 		

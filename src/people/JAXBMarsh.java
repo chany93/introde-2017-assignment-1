@@ -16,17 +16,15 @@ public class JAXBMarsh {
 		
 	public void generateXMLDocument(File xmlDocument) {
 		
+		//create instance of annotation
 		PeopleAnnotation people =new PeopleAnnotation();
+		//initializing db
 		PeopleDB.initializeDB(people);
 		try {
 
 			JAXBContext jaxbContext = JAXBContext.newInstance(PeopleAnnotation.class);
 			Marshaller marshaller = jaxbContext.createMarshaller();
 			marshaller.setProperty("jaxb.formatted.output", new Boolean(true));
-			
-			
-			
-
 		
 			marshaller.marshal(people, new FileOutputStream(xmlDocument));
 			marshaller.marshal(people, System.out);
@@ -42,7 +40,8 @@ public class JAXBMarsh {
 	}
 
 	public static void main(String[] argv) {
-		String xmlDocument = "NewPeople.xml";
+		//new xml file to create
+		String xmlDocument = "NewPeople.xml"; 
 		JAXBMarsh jaxbMarshaller = new JAXBMarsh();
 		jaxbMarshaller.generateXMLDocument(new File(xmlDocument));
 	}

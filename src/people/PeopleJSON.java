@@ -47,6 +47,7 @@ public class PeopleJSON {
 		mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         mapper.configure(SerializationFeature.ORDER_MAP_ENTRIES_BY_KEYS, true);
 
+	//write output in console and in new json file
         String result = mapper.writeValueAsString(people);
         System.out.println(result);
         mapper.writeValue(new File("people.json"), people);

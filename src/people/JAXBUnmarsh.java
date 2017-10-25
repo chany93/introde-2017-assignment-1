@@ -23,6 +23,7 @@ import people.generated.*;
 public class JAXBUnmarsh {
 
 	public void unMarshall(File xmlDocument) {
+		
 		try {
 
 			JAXBContext jaxbContext = JAXBContext.newInstance("people.generated");
@@ -37,12 +38,17 @@ public class JAXBUnmarsh {
 			unMarshaller.setEventHandler(validationEventHandler);
 
 			@SuppressWarnings("unchecked")
+			//get the jaxbelement from people.xml
 			JAXBElement<PeopleType> peopleElement = (JAXBElement<PeopleType>) unMarshaller
 					.unmarshal(xmlDocument);
-
+			
+			//get value "people" from the element
 			PeopleType people = peopleElement.getValue();
 			
+			//instantiates personlist from people method "getPerson()"
 			List<PersonType> personList = people.getPerson();
+			
+			//loop all persons and print them
 			for (int i = 0; i < personList.size(); i++) {
 
 				PersonType person = (PersonType) personList.get(i);

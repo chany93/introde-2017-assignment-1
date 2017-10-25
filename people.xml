@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<people>
+
+    <person id="0001">
+        <firstname>Bond</firstname>
+        <lastname>Martin</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="100">
+            <name>Running</name>
+            <description>Running to the Park</description>
+            <place>Gocciadoro</place>
+            <startdate>2017-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0002">
+        <firstname>Mario</firstname>
+        <lastname>Rossi</lastname>
+        <birthdate>1991-10-05</birthdate>
+        <activitypreference id="101">
+            <name>Swimming</name>
+            <description>Swimming in the pool</description>
+            <place>Gardolo</place>
+            <startdate>2017-10-23T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0003">
+        <firstname>Damiano</firstname>
+        <lastname>>Bianchi</lastname>
+        <birthdate>1979-03-27</birthdate>
+        <activitypreference id="102">
+            <name>Trekking</name>
+            <description>Trekking on the mountains</description>
+            <place>Bondone</place>
+            <startdate>2015-05-12T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0004">
+        <firstname>Roberto</firstname>
+        <lastname>Neri</lastname>
+        <birthdate>1987-01-15</birthdate>
+        <activitypreference id="104">
+            <name>Gaming</name>
+            <description>Computer gaming </description>
+            <place>At home</place>
+            <startdate>2008-04-01T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0005">
+        <firstname>Annalisa</firstname>
+        <lastname>Pace</lastname>
+        <birthdate>1990-09-11</birthdate>
+        <activitypreference id="105">
+            <name>Sleeping</name>
+            <description>Sleeping in bed</description>
+            <place>At home</place>
+            <startdate>1990-09-11T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0006">
+        <firstname>George</firstname>
+        <lastname>Brown</lastname>
+        <birthdate>1980-09-21</birthdate>
+        <activitypreference id="106">
+            <name>Running</name>
+            <description>Running to the Park</description>
+            <place>Lungo Adige</place>
+            <startdate>2016-11-04T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0007">
+        <firstname>Micheal</firstname>
+        <lastname>Jordan</lastname>
+        <birthdate>1975-03-29</birthdate>
+        <activitypreference id="107">
+            <name>Basketball</name>
+            <description>Playing basketball</description>
+            <place>Backyard</place>
+            <startdate>1980-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0008">
+        <firstname>Federica</firstname>
+        <lastname>Pellegrini</lastname>
+        <birthdate>1984-09-21</birthdate>
+        <activitypreference id="108">
+            <name>Swimming</name>
+            <description>Swimming fast</description>
+            <place>Olympic pool</place>
+            <startdate>2015-12-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0009">
+        <firstname>Jon</firstname>
+        <lastname>Snow</lastname>
+        <birthdate>1985-07-26</birthdate>
+        <activitypreference id="109">
+            <name>Knowledge</name>
+            <description>Knows nothing</description>
+            <place>Westeros</place>
+            <startdate>2016-11-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0010">
+        <firstname>Bon</firstname>
+        <lastname>Jovi</lastname>
+        <birthdate>1975-06-20</birthdate>
+        <activitypreference id="110">
+            <name>Singing</name>
+            <description>Singing at concerts</description>
+            <place>USA</place>
+            <startdate>1980-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0011">
+        <firstname>Usain</firstname>
+        <lastname>Bolt</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="111">
+            <name>Running</name>
+            <description>Running fast</description>
+            <place>Stadium</place>
+            <startdate>2015-11-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0012">
+        <firstname>Miley</firstname>
+        <lastname>Cyrus</lastname>
+        <birthdate>1992-09-20</birthdate>
+        <activitypreference id="112">
+            <name>Wrecking</name>
+            <description>Wrecking balls</description>
+            <place>USA</place>
+            <startdate>2015-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0013">
+        <firstname>James</firstname>
+        <lastname>Bond</lastname>
+        <birthdate>1984-09-01</birthdate>
+        <activitypreference id="113">
+            <name>Agent</name>
+            <description>Secret agent 007</description>
+            <place>UK</place>
+            <startdate>2005-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0014">
+        <firstname>Giulio</firstname>
+        <lastname>Cesare</lastname>
+        <birthdate>1991-09-20</birthdate>
+        <activitypreference id="114">
+            <name>Conqueror</name>
+            <description>Killing galli</description>
+            <place>Galia</place>
+            <startdate>2010-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0015">
+        <firstname>Marco</firstname>
+        <lastname>Polo</lastname>
+        <birthdate>1984-02-20</birthdate>
+        <activitypreference id="115">
+            <name>Exploring</name>
+            <description>Exploring the east</description>
+            <place>East</place>
+            <startdate>2011-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0016">
+        <firstname>Cristiano</firstname>
+        <lastname>Ronaldo</lastname>
+        <birthdate>1984-10-15</birthdate>
+        <activitypreference id="116">
+            <name>Football</name>
+            <description>Playing football</description>
+            <place>Madrid</place>
+            <startdate>2006-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0017">
+        <firstname>Enrico</firstname>
+        <lastname>Fermi</lastname>
+        <birthdate>1910-09-20</birthdate>
+        <activitypreference id="117">
+            <name>Bomb</name>
+            <description>Building nuclear bomb</description>
+            <place>USA</place>
+            <startdate>1945-10-13T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0018">
+        <firstname>Arya</firstname>
+        <lastname>Stark</lastname>
+        <birthdate>1984-08-02</birthdate>
+        <activitypreference id="118">
+            <name>Killing</name>
+            <description>Killing people</description>
+            <place>Westeros</place>
+            <startdate>2017-11-11T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0019">
+        <firstname>Michele</firstname>
+        <lastname>Felpe</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="119">
+            <name>Swimming</name>
+            <description>Swimming and winning</description>
+            <place>USA</place>
+            <startdate>2017-12-15T00:00:00.0</startdate>
+        </activitypreference>
+    </person>
+    <person id="0020">
+        <firstname>Valentino</firstname>
+        <lastname>Rossi</lastname>
+        <birthdate>1980-09-10</birthdate>
+        <activitypreference id="120">
+            <name>Motorclycle</name>
+            <description>Driving in motogp</description>
+            <place>World</place>
+            <startdate>2000-10-10T00:00:00.0</startdate>
+        </activitypreference>
+    </person> 
+</people>

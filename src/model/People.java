@@ -1,6 +1,5 @@
 package model;
 
-import java.util.Calendar;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -27,6 +26,11 @@ public class People {
 	@XmlAttribute(name="id")
 	private Long personId;
 	
+
+	public People() {
+
+	}
+	
 	public People(Long personId, String fname, String lname, String birthdate, Activity pa) {
 		this.setPersonId(personId); 	
 		this.setFirstname(fname);
@@ -35,23 +39,6 @@ public class People {
 		this.pActivity=pa;
 	}
 	
-	public People(Long personId, String fname, String lname, String birthdate) {
-		this.setPersonId(personId); 	
-		this.setFirstname(fname);
-		this.setLastname(lname);
-		this.setBirthdate(birthdate); 
-		this.pActivity=new Activity();
-	}
-	
-	public People() {
-		this.firstname="Surbhi";
-		this.lastname="Sonkiya";
-		this.pActivity=new Activity();
-
-		// setting personId to a random number between 1 and 9999
-		this.personId = Math.round(Math.floor(Math.random()*9998)+1); 
-		this.birthdate = this.getRandomDate();
-	}
 
 	public String getFirstname() {
 		return firstname;
@@ -84,22 +71,5 @@ public class People {
 		this.personId = personId;
 	}
 
-	/* 
-	 * creating a random date between now and 1950
-	 */
-	private String getRandomDate() {
-		int currentYear = Calendar.getInstance().get(Calendar.YEAR); 		// 1. get the current year
-		int year = (int) Math.round(Math.random()*(currentYear-1950)+1950); // 2. generate a random year 
-																			//    between 1950 and currentYear
-		int month = (int) Math.round(Math.floor(Math.random()*11)+1);		// 3. select a random month of the year
-		// 4. select a random day in the selected month
-		// 4.1 prepare a months array to store how many days in each month
-		int[] months = new int[]{31,28,30,30,31,30,31,31,30,31,30,31};
-		// 4.2 if it is a leap year, feb (months[1]) should be 29
-		if ((currentYear % 4 == 0) && ((currentYear % 100 != 0) || (currentYear % 400 == 0))) {
-			months[1] = 29;
-		}
-		long day = Math.round(Math.floor(Math.random()*(months[month-1]-1)+1));
-		return ""+year+"-"+month+"-"+day;
-	}
+	
 }

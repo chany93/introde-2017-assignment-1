@@ -119,7 +119,7 @@
 		
 		<echo message="Executing XPath all People" />
 				<java classname="people.XPathPeople" classpath="${build.dir}">
-					<classpath path="${classpath}"/>
+					<classpath path="${classpath}">
 						<fileset dir="${lib.dir}">
 							<include name="**/*.jar" />
 							<include name="*.jar" />

@@ -62,7 +62,7 @@ public class JAXBUnmarsh {
 				ActivityType activity = person.getActivitypreference();
 
 				System.out.println("Activity " + activity.getId()) ;
-				System.out.println(" Name: "+ activity.getName() + " Description: " + activity.getDescription() + " Place: " + activity.getPlace() + " Start Date: " + activity.getStartdate() + "\n");
+				System.out.println("Name: "+ activity.getName() + " Description: " + activity.getDescription() + " Place: " + activity.getPlace() + " Start Date: " + activity.getStartdate() + "\n");
 			
 
 				

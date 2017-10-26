@@ -28,7 +28,7 @@ Now you can compile/run it with:
 - $ ant compile
 this will generate the auto-generated classes and compile all classes
 
-- $ ant excecute.evaluation
+- $ ant execute.evaluation
 this will run XPathPeople.class, JAXBMarsh.class, JAXBUnmarsh.class and PeopleJSON.class
 it will show every output from the excecuted classes on console and will create NewPeople.xml (output of the marshalling) and people.json (output from the JSON transformation)
 

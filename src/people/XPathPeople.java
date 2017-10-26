@@ -158,12 +158,15 @@ public class XPathPeople {
 
 		XPathPeople test = new XPathPeople();
 		test.loadXML();
-
+		
+		System.out.println("Printing list of all persons");
 		test.getPeople();	
 		
+		System.out.println("\n Printing the preferred activity of person with id 5");
 		Node node = test.getActivityPreference(5);
 		System.out.println(node.getTextContent());
 		
+		System.out.println("\n Printing persons which satisfy the condition startdate>2017-10-13");
 		test.getActivityByStartdate("2017-10-13", ">");
 	
 		

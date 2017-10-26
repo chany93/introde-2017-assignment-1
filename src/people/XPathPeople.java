@@ -116,7 +116,7 @@ public class XPathPeople {
 		NodeList nodes = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
 		//System.out.println(nodes.getLength());
 
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-mm-dd"); //format of date from xml
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd"); //format of date from xml
 
 		for (int i = 0; i < nodes.getLength(); i++) {
 		  Node startdateNode = nodes.item(i);

@@ -32,15 +32,14 @@ this will generate the auto-generated classes and compile all classes
 this will run XPathPeople.class, JAXBMarsh.class, JAXBUnmarsh.class and PeopleJSON.class
 it will show every output from the excecuted classes on console and will create NewPeople.xml (output of the marshalling) and people.json (output from the JSON transformation)
 
-Another way to run it is using Eclipse:
+Another way to run it is using Eclipse (using ivy):
 
 - open project in Eclipse
 - right-click on ivy.xml -> "Add Ivy Library"
 - refresh the project
 - right-click build.xml -> Run as -> 2 Ant Build 
-- compile command should be default -> "Run"
-- right-click build.xml -> Run as -> 2 Ant Build 
-- deselect compile and select execute.evaluation -> "Run"
+- compile command should be default select also execute.evaluation (the order of execution should be compile, execute.evaluation) -> "Run"
+
 
 
 

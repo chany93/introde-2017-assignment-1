@@ -115,7 +115,7 @@
 	</target>
 
 
-	<target name="excecute.evaluation">
+	<target name="execute.evaluation">
 		
 		<echo message="Executing XPath all People" />
 				<java classname="people.XPathPeople" classpath="${build.dir}">

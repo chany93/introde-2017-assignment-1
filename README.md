@@ -6,7 +6,7 @@ giovannirafael.vuolo@studenti.unitn.it
 The project focus on Reading/Writing objects to and from XML and JSON. It uses JAXB to do the marshalling and un-marshalling. For the JSON transformation it uses Jackson Object Mapper.
 
 
-the code is structure in two packages inside the src folder: model (where there are the People and Activity classes) and people (all the others). Outside the src folder there are the people.xml (with 20 persons), the people.xsd, the ivy.xml and the build.xml.
+The code is structure in two packages inside the src folder: model (where there are the People and Activity classes) and people (all the others). Outside the src folder there are the people.xml (with 20 persons), the people.xsd, the ivy.xml and the build.xml.
 
 In XPathPeople.java there is the function for printing the list of the person from the people.xml (getPeople()), the function for getting the preferred activity of a person (getActivityPreference(Integer)), the function for getting the person with a specific startdate (get.ActivitybyStartdate(Date, String)) and finally getActivityDescription(Integer) and getActivityPlace(Integer) which do as the name says.
 JAXBMarsh.class does the marshalling creating NewPeople.xml
@@ -16,7 +16,6 @@ PeopleJSON.class does the JSON transformation
 
 In order to excecute the application from forking it to run it, follow this steps:
 
-- go to https://github.com/chany93/introde-2017-assignment-1.
 - Click on "Fork" in the upper right corner of the page
 
 - on your terminal go to a folder of your choosing
@@ -35,4 +34,3 @@ it will show every output from the excecuted classes on console and will create 
 
 
 
-Additional Notes: Additional observations if necessary.

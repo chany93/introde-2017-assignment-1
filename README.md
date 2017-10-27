@@ -3,8 +3,6 @@
 Giovanni Rafael Vuolo 
 giovannirafael.vuolo@studenti.unitn.it
 
-The project focus on Reading/Writing objects to and from XML and JSON. It uses JAXB to do the marshalling and un-marshalling. For the JSON transformation it uses Jackson Object Mapper.
-
 
 The code is structure in two packages inside the src folder: model (where there are the People and Activity classes) and people (all the others). Outside the src folder there are the people.xml (with 20 persons), the people.xsd, the ivy.xml and the build.xml.
 

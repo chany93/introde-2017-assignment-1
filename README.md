@@ -23,14 +23,12 @@ In order to excecute the application from forking it to run it, follow this step
 Now you can compile/run it with:
 
 - $ cd introde-2017-assignment-1
-- $ ant compile
-this will generate the auto-generated classes and compile all classes
 
 - $ ant execute.evaluation
 this will run XPathPeople.class, JAXBMarsh.class, JAXBUnmarsh.class and PeopleJSON.class
 it will show every output from the excecuted classes on console and will create NewPeople.xml (output of the marshalling) and people.json (output from the JSON transformation)
 
-Another way to run it is using Eclipse (using ivy):
+Another way to run it is using Eclipse (given that you have Ivy installed):
 
 - open project in Eclipse
 - right-click on ivy.xml -> "Add Ivy Library"
